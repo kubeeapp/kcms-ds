@@ -3,9 +3,9 @@
 [![Packagist](https://img.shields.io/packagist/v/kubeeapp/wp-stage-switcher.svg?style=flat-square)](https://packagist.org/packages/kubeeapp/wp-stage-switcher)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/kubeeapp/wp-stage-switcher.svg?style=flat-square)](https://packagist.org/packages/kubeeapp/wp-stage-switcher)
 
-A WordPress plugin that allows you to switch between different environments from the admin bar.
+Allows you to switch between different environments from the admin bar.
 
-![WordPress Stage Switcher](https://cdn.kubeeapp.io/app/uploads/plugin-stage-switcher.png)
+![KCMS Dev Switch](https://cdn.kubeeapp.io/app/uploads/kcms-ds.png)
 
 ## Requirements
 
@@ -30,23 +30,23 @@ Note: the `serialize()` call is not needed on PHP 7.0 or newer.
 define('WP_ENV', 'development');
 ```
 
-If you use [Bedrock](https://github.com/kubeeapp/bedrock), `WP_ENV` is already defined in the config.
+If you use [KCMS](https://github.com/kubeeapp/kcms), `WP_ENV` is already defined in the config.
 
 ## Installation
 
-This plugin must be installed via Composer. Add wp-stage-switcher to your project's dependencies:
+This plugin must be installed via Composer. Add kcms-ds to your project's dependencies:
 
 ```sh
-composer require kubeeapp/wp-stage-switcher
+composer require kubeeapp/kcms-ds
 ```
 
 Or manually add it to your `composer.json`:
 
 ```json
 "require": {
-  "php": ">=7.1",
-  "kubeeapp/wordpress": "5.1.1",
-  "kubeeapp/wp-stage-switcher": "~2.0"
+  "php": ">=7.2",
+  "kubeeapp/cms": "5.1.1",
+  "kubeeapp/kcms-ds": "~2.0"
 }
 ```
 
