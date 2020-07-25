@@ -1,7 +1,7 @@
 # KCMS Dev Switch
 
-[![Packagist](https://img.shields.io/packagist/v/kubeeapp/wp-stage-switcher.svg?style=flat-square)](https://packagist.org/packages/kubeeapp/wp-stage-switcher)
-[![Packagist Downloads](https://img.shields.io/packagist/dt/kubeeapp/wp-stage-switcher.svg?style=flat-square)](https://packagist.org/packages/kubeeapp/wp-stage-switcher)
+[![Packagist](https://img.shields.io/packagist/v/kubeeapp/kcms-ds.svg?style=flat-square)](https://packagist.org/packages/kubeeapp/kcms-ds)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/kubeeapp/kcms-ds.svg?style=flat-square)](https://packagist.org/packages/kubeeapp/kcms-ds)
 
 Allows you to switch between different environments from the admin bar.
 
