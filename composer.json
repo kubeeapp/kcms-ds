@@ -1,0 +1,30 @@
+{
+  "name": "kubeeapp/kcms-ds",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "Allows you to switch between different environments from the admin bar",
+  "homepage": "https://github.com/kubeeapp/kcms-ds/",
+  "authors": [
+    {
+      "name": "Romeo Covaci",
+      "email": "romeo.covaci@gmail.com",
+      "homepage": "https://github.com/romeocovaci"
+    },
+    {
+      "name": "Brand Li",
+      "email": "brandli.ro@gmail.com",
+      "homepage": "https://github.com/brand-li"
+    }
+  ],
+  "keywords": [
+    "Kcms"
+  ],
+  "support": {
+    "issues": "https://github.com/kubeeapp/kcms-ds/issues",
+    "forum": "https://github.com/kubeeapp/kcms-ds"
+  },
+  "require": {
+    "php": ">=7.2.0",
+    "composer/installers": "~1.0"
+  }
+}
